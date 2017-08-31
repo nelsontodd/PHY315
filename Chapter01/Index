@@ -1,0 +1,24 @@
+shm.py:
+
+	Widget to illustrate solution of simple harmonic oscillator equation.
+	Shows how solution
+
+ 	      x(t) = a*cos(2*pi*f - phi)
+
+	depends on choice of amplitude, a, frequency, f, and phase angle, phi.
+
+shmani.py:
+
+	Animation to illustrate simple harmonic motion. Animation stops on four
+	cardinal points of oscillation on mouse clicks.
+
+
+shmenergy.py:
+
+	Animation to illustrate energy flows in simple harmonic motion.
+	Pauses on mouse click.
+
+shmcircle.py:
+
+	Animation to illustrate relationship between simple harmonic and circular motion.
+	Animation freezes on mouse clicks.

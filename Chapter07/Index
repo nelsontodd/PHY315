@@ -1,0 +1,87 @@
+plane.py:
+
+	Animation to illustrate propagation of plane wave.
+	Pauses on mouse click.
+
+	Input parameters:
+
+	a - angular direction (degrees)
+	t - time step
+
+cylindrical.py:
+
+	Animation to illustrate propagation of cylindrical wave.
+	Wavefront thickness indicates amplitude.
+	Pauses on mouse click.
+
+	Input parameters:
+
+	t - time step
+
+spherical.py:
+
+	Animation to illustrate propagation of spherical wave.
+	Wavefront thickness indicates amplitude.
+	Pauses on mouse click.
+
+	Input parameters:
+
+	t - time step
+
+elasticsquare.py:
+
+	Animation to illustrate normal modes of square elastic sheet.
+	Pauses on mouse click.
+
+	Input parameters:
+
+	m - x mode number
+	n - y mode number
+	t - time step
+
+elasticsquaremixed.py:
+
+	Animation to illustrate mixed mode of square elastic sheet.
+	Pauses on mouse click.
+
+	Input parameters:
+
+	m1 - x mode number of 1st mode
+	n1 - y mode number of 1st mode
+	m2 - x mode number of 2nd mode
+	n2 - y mode number of 2nd mode
+	t - time step
+
+elasticcirlce.py:
+
+	Animation to illustrate normal modes of circular elastic sheet.
+	Pauses on mouse click.
+
+	Input parameters:
+
+	m - mode number
+	t - time step
+
+refraction.py:
+
+	Animation to illustrate reflection and refraction of plane wave at plane boundary
+	between rarified and dense media.
+	Pauses on mouse click.
+
+	Input parameters:
+
+	i - angle of incidence (degrees)
+	n - refractive index of dense medium
+	t - time step
+
+refraction1.py:
+
+	Animation to illustrate reflection and refraction of plane wave at plane boundary
+	between dense and rarified media.
+	Pauses on mouse click.
+
+	Input parameters:
+
+	i - angle of incidence (degrees)
+	n - refractive index of dense medium
+	t - time step

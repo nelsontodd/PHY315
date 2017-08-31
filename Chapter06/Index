@@ -1,0 +1,50 @@
+traveling.py:
+
+	Animation to illustrate difference between standing wave and traveling wave.
+	Pauses on mouse click.
+
+	Input parameters:
+
+	t - time step
+
+interference.py:
+
+	Animation to illustrate interference of two counter-propagating traveling waves.
+	Pauses on mouse click.
+
+	Input parameters:
+
+	a - ratio of wave amplitudes
+	t - time step
+
+reflectiongauss.py:
+
+	Animation to illustrate reflection and transmission of Gaussian traveling wave 
+	pulse at boundary. Plots energy flux.
+	Pauses on mouse click.
+
+	Input parameters:
+
+	z - ratio of impedances
+	s - width of incident pulse
+	t - time step
+
+reflectionsin.py:
+
+	Animation to illustrate reflection and transmission of sinusoidl traveling wave 
+	train at boundary. Plots energy flux. Also plots mean energy flux.
+	Pauses on mouse click.
+
+	Input parameters:
+
+	z - ratio of impedances
+
+quarter.py:
+
+	Animation to illustrate quarter-wave transformer. Plots energy flux.
+	Pauses on mouse click.
+
+	Input parameters:
+
+	z - ratio of impedances
+	t - time step

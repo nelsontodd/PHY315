@@ -1,0 +1,52 @@
+beadedstring.py:
+
+	Animation to illustrate normal modes of oscillation of beaded string.
+	Animation freezes on mouse click.
+
+	Input parameters:
+
+	n - number of beads
+	k - mode number
+	a - amplitude
+	t - time step
+
+beadedstringw.py:
+
+	Script to plot normal frequencies of beaded string.
+
+	Input parameters:
+
+	n - number of beads
+
+uniformstring.py:
+
+	Animation to illustrate normal modes of oscillation of uniform string.
+	Animation freezes on mouse click.	    
+
+	Input parameters:
+
+	k - mode number
+	a - amplitude
+	t - time step
+
+guitar.py:
+
+	Animation of motion of guitar string plucked at midpoint.
+	Animation freezes on mouse click.
+
+	Input parameters:
+
+	k  - number of harmonics
+	t  - time step
+	n  - damping rate
+
+guitartime.py:
+
+	Script to plot displacement of midpoint of guitar string plucked at midpoint
+	versus time.
+
+	Input parameters:
+
+	k  - number of harmonics
+	m  - maximum time
+	nu - damping rate

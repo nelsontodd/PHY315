@@ -1,0 +1,82 @@
+massspringfree.py:
+
+	Animation to illustrate normal modes of spring-coupled
+	mass system with left end free and right end fixed.
+
+	Input parameters:
+
+	n - number of masses
+	k - mode number
+	a - relative anplitude
+	t - time step
+
+massspringfreew.py:
+
+	Script to plot normal frequecies of mass-spring system with left end free and
+	right end fixed.
+
+	Input parameters:
+
+	n - number of masses
+
+massspringfixed.py:
+
+	Animation to illustrate normal modes of spring-coupled
+	mass system with both ends fixed.
+
+	Input parameters:
+
+	n - number of masses
+	k - mode number
+	a - relative anplitude
+	t - time step
+
+rod.py:
+
+	Animation of displacement of rigid rod with left end free and right end fixed.
+	Rod lies between x = 0 and x = l.
+	Initial condition is that section of rod lying between x = 0 and x = a < l
+	is initially moving to right with velocity V0, and remainder of rod is at rest. 
+	Animation freezes on mouse click.
+
+	Input parameters:
+
+	k  - number of harmomics
+	a  - relative length of section of rod initially in motion
+	t  - time step
+
+rodv.py:
+
+	Animation of velocity of rigid rod with left end free and right end fixed.
+	Rod lies between x = 0 and x = l.
+	Initial condition is that section of rod lying between x = 0 and x = a < l
+	is initially moving to right with velocity V0, and remainder of rod is at rest. 
+	Animation freezes on mouse click.
+
+	Input parameters:
+
+	k  - number of harmomics
+	a  - relative length of section of rod initially in motion
+	t  - time step
+
+organopen.py:
+
+	Animation to illustrate first three normal modes of organ pipe open at one end.
+	Plots pressure. Anti-nodes indicated as dashed lines. Nodes indicated as dotted lines.
+	Animation freezes on mouse clicks.
+
+organclosed.py:
+
+	Animation to illustrate first three normal modes of organ pipe closed at both ends.
+	Plots pressure. Anti-nodes indicated as dashed lines. Nodes indicated as dotted lines.
+	Animation freezes on mouse clicks.
+
+sawtooth.py:
+
+	Widget to illustrate how Fourier reconstruction of sawtooth waveform
+	depends on number terms included in series.
+
+tend.py:
+
+	Widget to illustrate how Fourier reconstruction of tent waveform
+	depends on number terms included in series.

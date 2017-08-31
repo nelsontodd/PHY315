@@ -1,0 +1,64 @@
+dispersion.py:
+
+	Animation to illustrate propagation of dispersive waves
+	Pauses on mouse click.
+
+reflectionplasma.py:
+
+	Animation to illustrate reflection of sinusoidal traveling wave 
+	at vacuum plasma boundary. Animation plots electric field.
+	Pauses on mouse click.
+
+	Input parameters:
+
+	w - ratio of wave frequency to plasma frequency
+	z - plot from -z to +z
+	t - time step
+
+reflectionplasma1.py:
+
+	Animation to illustrate reflection of sinusoidal traveling wave 
+	at vacuum plasma boundary. Animation plots energy flux.
+	Pauses on mouse click.
+
+	Input parameters:
+
+	w - ratio of wave frequency to plasma frequency
+	z - plot from -z to +z
+	t - time step
+
+reflectionmetal.py:
+
+	Animation to illustrate reflection of sinusoidal traveling wave 
+	at vacuum metal boundary. Animation plots electric field.
+	Pauses on mouse click.
+
+	Input parameters:
+
+	a - ratio of impedance in metal to that in free space
+	z - plot from -z to +z
+	t - time step
+
+reflectionmetal1.py:
+
+	Animation to illustrate reflection of sinusoidal traveling wave 
+	at vacuum metal boundary. Animation plots energy flux.
+	Also plots mean energy flux.
+	Pauses on mouse click.
+
+	Input parameters:
+
+	a - ratio of impedance in metal to that in free space
+	z - plot from -z to +z
+	t - time step
+
+waveguide.py:
+
+	Animation to illustate TE mode in rectangular waveguide.
+	Animation freezes on mouse clicks.
+
+	Input parameters:
+
+	j - mode number
+	w - ratio of mode frequency to cutoff frequency for j=1 mode
+	t - time step

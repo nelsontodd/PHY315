@@ -1,0 +1,40 @@
+normal1ani.py:
+
+	Animation to illustrate first normal mode of oscillation
+	of two spring-coupled mass problem.
+
+normal2ani.py:
+
+	Animation to illustrate second normal mode of oscillation
+	of two spring-coupled mass problem.
+
+normalmixedani.py:
+
+	Animation to illustrate mixed mode of oscillation
+	of two spring-coupled mass problem. Plots physical coordinates.
+
+normalmixedani1.py:
+
+	Animation to illustrate mixed mode of oscillation
+	of two spring-coupled mass problem. Plots normal coordinates. 
+
+normalaani.py:
+
+	Animation to illustrate first normal mode of oscillation
+	of three spring-coupled mass problem.
+
+normalbani.py:
+
+	Animation to illustrate second normal mode of oscillation
+	of three spring-coupled mass problem.
+
+normalcani.py:
+
+	Animation to illustrate third normal mode of oscillation
+	of three spring-coupled mass problem.
+
+normalxani.py:
+
+	Animation to illustrate mixed mode of oscillation
+	of three spring-coupled mass problem.
+	Plots normal coordinates. 

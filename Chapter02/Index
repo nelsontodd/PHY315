@@ -1,0 +1,56 @@
+dampedshm.py:
+
+	Widget to illustrate solution of damped simple harmonic oscillator equation.
+	Shows how solution 
+
+ 	x(t) = exp(-pi*nu*t) cos(2*pi*sqrt(1-nu*nu/4) t)
+
+	depends on choice of normalized damping rate, nu = nu/omega_0. Here,
+	x = x/a, t = t/T_0, T_0 is undamped oscillation period, and omega_0
+	is corresponding angular frequency.
+
+
+shmdampedenergy.py:
+
+	Animation to illustrate energy flows in damped simple harmonic motion. 
+	Pauses on mouse click.
+
+drivenshmamp.py:
+
+	Widget to illustrate how amplitude of time-asymptotic solution
+	to damped driven harmonic oscillator equation depends on normalized
+	damping rate. Solution is
+
+	x(w) = 1/sqrt((1-w*w)*(1-w*w) + nu*nu*w*w)
+
+	where x = x_0/X_0, w = omega/omega_0, and nu = nu/omega_0. Here, omega_0 is
+	undamped angular oscillation frequency. Quality factor Q = 1/nu. 
+	nu is adjustable. 
+
+drivenshmpha.py:
+
+	Widget to illustrate how phase of time-asymptotic solution
+	to damped driven harmonic oscillator equation depends on normalized
+	damping rate. Solution is
+
+	phi(w) = atan (nu*w / (1-w*w))
+
+	where w = omega/omega_0, and nu = nu/omega_0. Here, omega_0 is
+	undamped angular oscillation frequency. Quality factor Q = 1/nu. 
+	nu is adjustable. 
+
+transient.py:
+
+	Widget to illustrate how transients affect solution
+	to damped driven harmonic oscillator equation. Solution
+	such that initial displacement and velocity both zero
+	and frequency is relatively close to resonant frequency. 
+	Solution is
+
+	x(t) = [2*(1-w)/4*(1-w)*(1-w)+nu*nu]*[cos(2*pi*w*t)-exp(-pi*nu*t)*cos(2*pi*t)]
+	     + [nu/4*(1-w)*(1-w)+nu*nu]*[sin(2*pi*w*t)-exp(-pi*nu*t)*sin(2*pi*t)]
+
+	where x = x_0/X_0, t=t/T_0, w = omega/omega_0, and nu = nu/omega_0. Here, T_0
+	is undamped oscillation period, and omega_0 is associated angular frequency.
+	Quality factor Q = 1/nu. w and nu are both adjustable. 
+

@@ -1,0 +1,27 @@
+tophat.py:
+
+	Script to illustrate Fourier transform of top hat function
+
+	Inputs:
+
+	km - maximum value of k
+	dk - step length in k
+
+triangle.py:
+
+	Script to illustrate Fourier transform of triangle function
+
+	Inputs:
+
+	km - maximum value of k
+	dk - step length in k
+
+gaussian.py:
+
+	Script to illustrate relationship between gaussian function and its fourier transform.
+
+	sigma_x is variable.
+
+pulse.py:
+	Animation to illustrate counterpropagating wavepulses.
+	Pauses on mouse click.

@@ -1,0 +1,65 @@
+twoslit.py:
+
+	Widget to illustrate two-slit, far-field interference
+	due to monochromatic light source of negligible angular extent.
+	Plots intensity of light versus angle as function
+	of d/lambda and theta_0, where d is slit-spacing,
+	lambda is wavelength, and theta_0 is angle of
+	incidence.
+	
+incoherent.py:
+
+	Widget to illustrate two-slit, far-field interference
+	due to monochromatic, angularly extended, incoherent light source. 
+	Plots intensity of light versus angle as function
+	of d/lambda and theta_0, where d is slit-spacing,
+	lambda is wavelength, and theta_0 is angular
+	extent of source.
+
+coherent.py:
+
+	Widget to illustrate two-slit, far-field interference
+	due to monochromatic, angularly extended, coherent light source. 
+	Plots intensity of light versus angle as function
+	of d/lambda and theta_0, where d is slit-spacing,
+	lambda is wavelength, and theta_0 is angular
+	extent of source.
+
+multislit.py:
+
+	Widget to illustrate multi-slit, far-field, interference
+	due to monochromatic light source of negligible angular extent.
+	Plots intensity of light versus angle as function
+	of d/lambda and delta/lambda, where d is slit-spacing,
+	lambda is wavelength, and delta is slit width.
+
+	Input Parameter:
+
+	n - number of slits
+
+singleslit.py:
+
+	Widget to illustrate single-slit far-field interference
+	due to monochromatic light source of negligible angular extent.
+	Plots intensity of light versus angle as function
+	of delta/lambda where delta is slit width,
+	and lambda is wavelength.
+
+rectangle.py:
+
+	Widget to illustrate two-dimensional, far-field, interference pattern
+	due to rectangular aperture normally illuminated by light from monochromatic 
+	source of negligible angular extent. Plots square root of intensity of 
+	light versus angle. 
+
+	Input parameter:
+
+	b - Aspect ratio of aperture.
+
+rayleigh.py:
+
+	Widget to illustrate Rayleigh criterion for resolving
+	power of telescope. Plots intensity versus angle as
+	a function of Delta_theta where Delta_theta is
+	angular distance between two neighbouring stars.
+	
