@@ -1,3 +1,9 @@
+# Physics 315L demos
+
+These are the visualizations that go along with each chapter in Physics 315L
+
+## Getting Started
+
 This makefile assumes that you have gnu make installed and are using bash (either on OSX or linux).
 
 INSTRUCTIONS:
